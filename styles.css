@@ -1,8 +1,17 @@
-/* Barra De Navegacion */
+/* Propiedades Personalizadas */
+
+:root {
+  --color-primario: #222831;
+  --color-secundario: #393E46;
+  --color-terciario: #00ADB5;
+  --color-cuarto: #EEEEEE;
+}
+  
+  /* Barra De Navegacion */
 
 .navbar {
   padding: 2rem;
-  background-color: #f5f6f7;
+  background-color: var(--color-cuarto);
 }
 
 .navbar-collapse {
@@ -20,6 +29,7 @@ section {
 }
 
 h1 {
+  color: black;
   font-size: 2.5rem;
   font-family: 'Rubik Dirt', cursive;
 }
@@ -31,7 +41,7 @@ h1 {
 
 .seccion-clara {
   color: black;
-  background-color: white;
+  background-color: var(--color-cuarto);
 }
 
 .seccion-titulo {
@@ -65,10 +75,9 @@ h1 {
 /* Seccion Principal (Hero) */
 
 .hero {
-  background-color: #f5f6f7;
+  background-color: var(--color-cuarto);
   min-height: 450px;
   text-align: center;
-
 }
 
 .hero-principal {
@@ -79,6 +88,7 @@ h1 {
   width: 200px;
   height: 200px;
   margin: 20px;
+  padding: 10px;
 }
 
 .hero-principal h2 {
@@ -288,7 +298,7 @@ h1 {
 
 .contacto .rectangulo {
   margin-top: -5rem;
-  background-color: blue;
+  background-color: var(--color-terciario);
   border-radius: 10px;
   box-shadow: 0px 1px 4px 1px white;
 }
@@ -369,7 +379,7 @@ footer {
 }
 
 .iconos-redes-sociales a:hover {
-  background-color: white;
+  background-color: var(--color-primario);
   border: 2px solid blue;
 }
 
