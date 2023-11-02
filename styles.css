@@ -1,3 +1,11 @@
+/*? Ni idea lo que hace esto*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 /* Propiedades Personalizadas */
 
 :root {
@@ -171,6 +179,7 @@ h1 {
   padding: 10px;
   border-radius: 10px;
   display: block;
+  filter: blur(1px);
   transition: all 0.2s ease;
 }
 
