@@ -450,16 +450,22 @@ footer {
   .navbar-brand {
     display: none;
   }
-}
 
-@media screen and (max-width: 800px) {
   .testimonio-imagen {
-    height: 120px;
-    width: 120px;
+    height: 179px;
+    width: 320px;
   }
 
   .testimonio-texto {
     font-size: 18px;
+  }
+}
+
+
+@media screen and (max-width: 550px) {
+  .testimonio-imagen {
+    height: 143px;
+    width: 256px;
   }
 }
 
