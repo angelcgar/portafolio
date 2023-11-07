@@ -104,6 +104,15 @@ h1 {
   color: grey;
 }
 
+.hero a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #0077FF;
+  color: #fff;
+  text-decoration: none;
+  margin: 25px;
+}
+
 /* Seccion sobre mi */
 
 .sobre-mi {
